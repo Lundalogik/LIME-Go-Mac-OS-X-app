@@ -1,18 +1,35 @@
 //
 //  AppDelegate.m
-//  LIME Go
-//
-//  Created by Filip Persson on 2014-03-25.
-//  Copyright (c) 2014 Lundalogik AB. All rights reserved.
 //
 
 #import "AppDelegate.h"
 
 @implementation AppDelegate
 
+@synthesize window = _window;
+@synthesize webview;
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    NSString *urlAddress = @"https://go.lime-go.com";
+    
+    NSURL *url = [NSURL URLWithString:urlAddress];
+    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+    
+    [[webview mainFrame] loadRequest:requestObj];
 }
+
+- (BOOL)applicationShouldHandleReopen:(NSApplication *)theApplication hasVisibleWindows:(BOOL)flag
+{
+    if ( flag ) {
+        [self.window orderFront:self];
+    }
+    else {
+        [self.window makeKeyAndOrderFront:self];
+    }
+    
+    return YES;
+}
+
 
 @end

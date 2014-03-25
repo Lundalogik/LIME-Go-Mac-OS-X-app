@@ -18,6 +18,7 @@
 		DC1DCDDB18E20A7C00033A32 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1DCDBA18E20A7C00033A32 /* Cocoa.framework */; };
 		DC1DCDE318E20A7C00033A32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC1DCDE118E20A7C00033A32 /* InfoPlist.strings */; };
 		DC1DCDE518E20A7C00033A32 /* LIME_GoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1DCDE418E20A7C00033A32 /* LIME_GoTests.m */; };
+		DC1DCDEF18E20B3A00033A32 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1DCDEE18E20B3A00033A32 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		DC1DCDE018E20A7C00033A32 /* LIME GoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LIME GoTests-Info.plist"; sourceTree = "<group>"; };
 		DC1DCDE218E20A7C00033A32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DC1DCDE418E20A7C00033A32 /* LIME_GoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIME_GoTests.m; sourceTree = "<group>"; };
+		DC1DCDEE18E20B3A00033A32 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC1DCDEF18E20B3A00033A32 /* WebKit.framework in Frameworks */,
 				DC1DCDBB18E20A7C00033A32 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +98,7 @@
 		DC1DCDB918E20A7C00033A32 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DC1DCDEE18E20B3A00033A32 /* WebKit.framework */,
 				DC1DCDBA18E20A7C00033A32 /* Cocoa.framework */,
 				DC1DCDD918E20A7C00033A32 /* XCTest.framework */,
 				DC1DCDBC18E20A7C00033A32 /* Other Frameworks */,
@@ -466,6 +470,7 @@
 				DC1DCDEA18E20A7C00033A32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC1DCDEB18E20A7C00033A32 /* Build configuration list for PBXNativeTarget "LIME GoTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +479,7 @@
 				DC1DCDED18E20A7C00033A32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

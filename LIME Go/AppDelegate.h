@@ -1,15 +1,15 @@
 //
 //  AppDelegate.h
-//  LIME Go
-//
-//  Created by Filip Persson on 2014-03-25.
-//  Copyright (c) 2014 Lundalogik AB. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
+#import <WebKit/WebKit.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate> {
+    WebView *webview;
+}
 
 @property (assign) IBOutlet NSWindow *window;
+@property (retain, nonatomic) IBOutlet WebView *webview;
 
 @end
