@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC1DCDBB18E20A7C00033A32 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1DCDBA18E20A7C00033A32 /* Cocoa.framework */; };
+		DC1DCDC518E20A7C00033A32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC1DCDC318E20A7C00033A32 /* InfoPlist.strings */; };
+		DC1DCDC718E20A7C00033A32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1DCDC618E20A7C00033A32 /* main.m */; };
+		DC1DCDCB18E20A7C00033A32 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DC1DCDC918E20A7C00033A32 /* Credits.rtf */; };
+		DC1DCDCE18E20A7C00033A32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1DCDCD18E20A7C00033A32 /* AppDelegate.m */; };
+		DC1DCDD118E20A7C00033A32 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC1DCDCF18E20A7C00033A32 /* MainMenu.xib */; };
+		DC1DCDD318E20A7C00033A32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1DCDD218E20A7C00033A32 /* Images.xcassets */; };
+		DC1DCDDA18E20A7C00033A32 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1DCDD918E20A7C00033A32 /* XCTest.framework */; };
+		DC1DCDDB18E20A7C00033A32 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1DCDBA18E20A7C00033A32 /* Cocoa.framework */; };
+		DC1DCDE318E20A7C00033A32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC1DCDE118E20A7C00033A32 /* InfoPlist.strings */; };
+		DC1DCDE518E20A7C00033A32 /* LIME_GoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1DCDE418E20A7C00033A32 /* LIME_GoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC1DCDDC18E20A7C00033A32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC1DCDAF18E20A7C00033A32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC1DCDB618E20A7C00033A32;
+			remoteInfo = "LIME Go";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC1DCDB718E20A7C00033A32 /* LIME Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LIME Go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1DCDBA18E20A7C00033A32 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DC1DCDBD18E20A7C00033A32 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DC1DCDBE18E20A7C00033A32 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DC1DCDBF18E20A7C00033A32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC1DCDC218E20A7C00033A32 /* LIME Go-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LIME Go-Info.plist"; sourceTree = "<group>"; };
+		DC1DCDC418E20A7C00033A32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC1DCDC618E20A7C00033A32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC1DCDC818E20A7C00033A32 /* LIME Go-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LIME Go-Prefix.pch"; sourceTree = "<group>"; };
+		DC1DCDCA18E20A7C00033A32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DC1DCDCC18E20A7C00033A32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC1DCDCD18E20A7C00033A32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC1DCDD018E20A7C00033A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DC1DCDD218E20A7C00033A32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC1DCDD818E20A7C00033A32 /* LIME GoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LIME GoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1DCDD918E20A7C00033A32 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DC1DCDE018E20A7C00033A32 /* LIME GoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LIME GoTests-Info.plist"; sourceTree = "<group>"; };
+		DC1DCDE218E20A7C00033A32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC1DCDE418E20A7C00033A32 /* LIME_GoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIME_GoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC1DCDB418E20A7C00033A32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1DCDBB18E20A7C00033A32 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1DCDD518E20A7C00033A32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1DCDDB18E20A7C00033A32 /* Cocoa.framework in Frameworks */,
+				DC1DCDDA18E20A7C00033A32 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC1DCDAE18E20A7C00033A32 = {
+			isa = PBXGroup;
+			children = (
+				DC1DCDC018E20A7C00033A32 /* LIME Go */,
+				DC1DCDDE18E20A7C00033A32 /* LIME GoTests */,
+				DC1DCDB918E20A7C00033A32 /* Frameworks */,
+				DC1DCDB818E20A7C00033A32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC1DCDB818E20A7C00033A32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC1DCDB718E20A7C00033A32 /* LIME Go.app */,
+				DC1DCDD818E20A7C00033A32 /* LIME GoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC1DCDB918E20A7C00033A32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC1DCDBA18E20A7C00033A32 /* Cocoa.framework */,
+				DC1DCDD918E20A7C00033A32 /* XCTest.framework */,
+				DC1DCDBC18E20A7C00033A32 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC1DCDBC18E20A7C00033A32 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC1DCDBD18E20A7C00033A32 /* AppKit.framework */,
+				DC1DCDBE18E20A7C00033A32 /* CoreData.framework */,
+				DC1DCDBF18E20A7C00033A32 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DC1DCDC018E20A7C00033A32 /* LIME Go */ = {
+			isa = PBXGroup;
+			children = (
+				DC1DCDCC18E20A7C00033A32 /* AppDelegate.h */,
+				DC1DCDCD18E20A7C00033A32 /* AppDelegate.m */,
+				DC1DCDCF18E20A7C00033A32 /* MainMenu.xib */,
+				DC1DCDD218E20A7C00033A32 /* Images.xcassets */,
+				DC1DCDC118E20A7C00033A32 /* Supporting Files */,
+			);
+			path = "LIME Go";
+			sourceTree = "<group>";
+		};
+		DC1DCDC118E20A7C00033A32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC1DCDC218E20A7C00033A32 /* LIME Go-Info.plist */,
+				DC1DCDC318E20A7C00033A32 /* InfoPlist.strings */,
+				DC1DCDC618E20A7C00033A32 /* main.m */,
+				DC1DCDC818E20A7C00033A32 /* LIME Go-Prefix.pch */,
+				DC1DCDC918E20A7C00033A32 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC1DCDDE18E20A7C00033A32 /* LIME GoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC1DCDE418E20A7C00033A32 /* LIME_GoTests.m */,
+				DC1DCDDF18E20A7C00033A32 /* Supporting Files */,
+			);
+			path = "LIME GoTests";
+			sourceTree = "<group>";
+		};
+		DC1DCDDF18E20A7C00033A32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC1DCDE018E20A7C00033A32 /* LIME GoTests-Info.plist */,
+				DC1DCDE118E20A7C00033A32 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC1DCDB618E20A7C00033A32 /* LIME Go */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1DCDE818E20A7C00033A32 /* Build configuration list for PBXNativeTarget "LIME Go" */;
+			buildPhases = (
+				DC1DCDB318E20A7C00033A32 /* Sources */,
+				DC1DCDB418E20A7C00033A32 /* Frameworks */,
+				DC1DCDB518E20A7C00033A32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LIME Go";
+			productName = "LIME Go";
+			productReference = DC1DCDB718E20A7C00033A32 /* LIME Go.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC1DCDD718E20A7C00033A32 /* LIME GoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1DCDEB18E20A7C00033A32 /* Build configuration list for PBXNativeTarget "LIME GoTests" */;
+			buildPhases = (
+				DC1DCDD418E20A7C00033A32 /* Sources */,
+				DC1DCDD518E20A7C00033A32 /* Frameworks */,
+				DC1DCDD618E20A7C00033A32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC1DCDDD18E20A7C00033A32 /* PBXTargetDependency */,
+			);
+			name = "LIME GoTests";
+			productName = "LIME GoTests";
+			productReference = DC1DCDD818E20A7C00033A32 /* LIME GoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC1DCDAF18E20A7C00033A32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Lundalogik AB";
+				TargetAttributes = {
+					DC1DCDD718E20A7C00033A32 = {
+						TestTargetID = DC1DCDB618E20A7C00033A32;
+					};
+				};
+			};
+			buildConfigurationList = DC1DCDB218E20A7C00033A32 /* Build configuration list for PBXProject "LIME Go" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC1DCDAE18E20A7C00033A32;
+			productRefGroup = DC1DCDB818E20A7C00033A32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC1DCDB618E20A7C00033A32 /* LIME Go */,
+				DC1DCDD718E20A7C00033A32 /* LIME GoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC1DCDB518E20A7C00033A32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1DCDC518E20A7C00033A32 /* InfoPlist.strings in Resources */,
+				DC1DCDD318E20A7C00033A32 /* Images.xcassets in Resources */,
+				DC1DCDCB18E20A7C00033A32 /* Credits.rtf in Resources */,
+				DC1DCDD118E20A7C00033A32 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1DCDD618E20A7C00033A32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1DCDE318E20A7C00033A32 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC1DCDB318E20A7C00033A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1DCDCE18E20A7C00033A32 /* AppDelegate.m in Sources */,
+				DC1DCDC718E20A7C00033A32 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1DCDD418E20A7C00033A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1DCDE518E20A7C00033A32 /* LIME_GoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC1DCDDD18E20A7C00033A32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC1DCDB618E20A7C00033A32 /* LIME Go */;
+			targetProxy = DC1DCDDC18E20A7C00033A32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC1DCDC318E20A7C00033A32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC1DCDC418E20A7C00033A32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC1DCDC918E20A7C00033A32 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC1DCDCA18E20A7C00033A32 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DC1DCDCF18E20A7C00033A32 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC1DCDD018E20A7C00033A32 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		DC1DCDE118E20A7C00033A32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC1DCDE218E20A7C00033A32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC1DCDE618E20A7C00033A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DC1DCDE718E20A7C00033A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DC1DCDE918E20A7C00033A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LIME Go/LIME Go-Prefix.pch";
+				INFOPLIST_FILE = "LIME Go/LIME Go-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC1DCDEA18E20A7C00033A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LIME Go/LIME Go-Prefix.pch";
+				INFOPLIST_FILE = "LIME Go/LIME Go-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DC1DCDEC18E20A7C00033A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LIME Go.app/Contents/MacOS/LIME Go";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LIME Go/LIME Go-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LIME GoTests/LIME GoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DC1DCDED18E20A7C00033A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LIME Go.app/Contents/MacOS/LIME Go";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LIME Go/LIME Go-Prefix.pch";
+				INFOPLIST_FILE = "LIME GoTests/LIME GoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC1DCDB218E20A7C00033A32 /* Build configuration list for PBXProject "LIME Go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1DCDE618E20A7C00033A32 /* Debug */,
+				DC1DCDE718E20A7C00033A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1DCDE818E20A7C00033A32 /* Build configuration list for PBXNativeTarget "LIME Go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1DCDE918E20A7C00033A32 /* Debug */,
+				DC1DCDEA18E20A7C00033A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC1DCDEB18E20A7C00033A32 /* Build configuration list for PBXNativeTarget "LIME GoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1DCDEC18E20A7C00033A32 /* Debug */,
+				DC1DCDED18E20A7C00033A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC1DCDAF18E20A7C00033A32 /* Project object */;
+}
